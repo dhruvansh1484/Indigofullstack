@@ -1,0 +1,79 @@
+[
+  {
+    "flight_id": "AA123",
+    "airline": "American Airlines",
+    "origin": "JFK",
+    "destination": "LAX",
+    "scheduled_departure": "2024-07-27T08:00:00Z",
+    "scheduled_arrival": "2024-07-27T11:00:00Z",
+    "status": "On Time",
+    "updates": [
+      {
+        "update_id": 1,
+        "time": "2024-07-27T07:00:00Z",
+        "type": "Gate Change",
+        "details": {
+          "from_gate": "A5",
+          "to_gate": "A7"
+        }
+      },
+      {
+        "update_id": 2,
+        "time": "2024-07-27T07:30:00Z",
+        "type": "Delay",
+        "details": {
+          "delay_duration": "00:30:00",
+          "new_departure_time": "2024-07-27T08:30:00Z"
+        }
+      }
+    ]
+  },
+  {
+    "flight_id": "DL456",
+    "airline": "Delta Airlines",
+    "origin": "ATL",
+    "destination": "ORD",
+    "scheduled_departure": "2024-07-27T09:00:00Z",
+    "scheduled_arrival": "2024-07-27T10:30:00Z",
+    "status": "Cancelled",
+    "updates": [
+      {
+        "update_id": 1,
+        "time": "2024-07-27T08:00:00Z",
+        "type": "Cancellation",
+        "details": {
+          "reason": "Weather conditions"
+        }
+      }
+    ]
+  },
+  {
+    "flight_id": "UA789",
+    "airline": "United Airlines",
+    "origin": "SFO",
+    "destination": "ORD",
+    "scheduled_departure": "2024-07-27T10:00:00Z",
+    "scheduled_arrival": "2024-07-27T16:00:00Z",
+    "status": "Delayed",
+    "updates": [
+      {
+        "update_id": 1,
+        "time": "2024-07-27T09:00:00Z",
+        "type": "Delay",
+        "details": {
+          "delay_duration": "01:00:00",
+          "new_departure_time": "2024-07-27T11:00:00Z"
+        }
+      },
+      {
+        "update_id": 2,
+        "time": "2024-07-27T09:30:00Z",
+        "type": "Gate Change",
+        "details": {
+          "from_gate": "B12",
+          "to_gate": "B15"
+        }
+      }
+    ]
+  }
+]
